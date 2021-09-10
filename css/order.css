@@ -75,6 +75,7 @@
     display: block;
     margin-top: 0.5rem;
     border: none;
+    border-bottom: .3rem solid var(--main-text-color);
     background: none;
     padding: 1rem;
     font-size: 1.8rem;
@@ -143,7 +144,7 @@
     visibility: hidden;
 }
 .checkbox-input:checked+.checkbox-label::before {
-   
+   background-color: var(--second-brand-color);
 }
 .checkbox-label::before {
     display: block;
